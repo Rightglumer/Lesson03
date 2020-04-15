@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //catchDigit(3, 10);
+        catchDigit(3, 10);
         catchWord();
     }
 
