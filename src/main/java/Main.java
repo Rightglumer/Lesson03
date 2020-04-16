@@ -72,7 +72,7 @@ public class Main {
 
     public static void catchWord(){
         String[] secretArray = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
-        int wordNumber = getRandomNumber(secretArray.length);
+        int wordNumber = new Random().nextInt(secretArray.length);
         String currentWord;
         String printingWord;
         System.out.printf("Я загадал слово. Попробуйте угадать его.\n");
